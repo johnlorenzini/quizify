@@ -1,0 +1,218 @@
+body {
+    background: linear-gradient(46deg, #165758, #167f7b, #1a7083, #2b4e56, #1997b4);
+    background-size: 1000% 1000%;
+  
+    -webkit-animation: Flow 15s ease infinite;
+    -moz-animation: Flow 15s ease infinite;
+    animation: Flow 15s ease infinite;
+  }
+  
+  @-webkit-keyframes Flow {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+  }
+  @-moz-keyframes Flow {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+  }
+  @keyframes Flow {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+  }
+  
+  @keyframes Swoosh{
+    0%{left: 100px}
+    100%{left: 0px}
+  }
+  
+  .main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .text{
+    font-family: 'Inter Extrabold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    animation-name: Swoosh;
+    animation-duration: .5s;
+  }
+  
+  .button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    animation-name: Swoosh;
+    animation-duration: .5s;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: rgba(102,252,241,1);
+    border: 2px solid rgba(102,252,241,1);
+    background: transparent;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 60px;
+    justify-content: center;
+    transition: 0.5s ease;
+  }
+  
+  .choices{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: rgba(102,252,241,1);
+    border: 2px solid rgba(102,252,241,1);
+    background: transparent;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 60px;
+    justify-content: center;
+    transition: 0.5s ease;
+  }
+  
+  .play_again{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    animation-name: Swoosh;
+    animation-duration: .5s;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: rgba(102,252,241,1);
+    border: 2px solid rgba(102,252,241,1);
+    background: transparent;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    transition: 0.5s ease;
+  }
+  
+  .button:hover{
+    box-shadow: inset 200px 0 0 0 #143130;
+  }
+
+  .choices:hover{
+    box-shadow: inset 200px 0 0 0 #143130;
+  }
+
+  .play_again:hover{
+    box-shadow: inset 200px 0 0 0 #143130;
+  }
+
+  .break{
+    overflow-wrap: anywhere;
+    width: 500px;
+  }
+  
+  #header{
+    background: linear-gradient(0deg, rgba(69,162,158,1) 45%, rgba(102,252,241,1) 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 9px 2px #143130);
+    font-size: 95px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+  }
+  
+  #number{
+    background: linear-gradient(0deg, rgba(69,162,158,1) 45%, rgba(102,252,241,1) 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 9px 2px #143130);
+    font-size: 50px;
+    padding-right: 10px;
+  }
+  
+  #question{
+    background: linear-gradient(0deg, rgba(69,162,158,1) 45%, rgba(102,252,241,1) 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 9px 2px #143130);
+    font-size: 50px;
+    padding-right: 10px;
+  }
+  
+  #song1{
+    margin: auto;
+    position: relative;
+    right: 100px
+  }
+  
+  #song2{
+    margin: auto;
+    position: relative;
+    right: 100px;
+    top: 5px;
+  }
+  
+  #song3{
+    margin: auto;
+    position: relative;
+    left: 105px;
+    bottom: 100px;
+  }
+  
+  #song4{
+    margin: auto;
+    position: relative;
+    left: 105px;
+    bottom: 95px;
+  }
+  
+  #subheader{
+    font-size: 11px;
+    color: #66fcf1;
+    margin-bottom: 50px;
+    margin-top: -10px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  #about{
+    font-size: 16px;
+    color: #66fcf1;
+    margin-bottom: 50px;
+    margin-top: -10px;
+    margin-right: 10px;
+    width: 40%;
+    display: inline-block;
+  }
+  
+  #footer{
+    text-align: center;
+    color: rgba(69,162,158,1);
+    font-family: 'Inter Extrabold', sans-serif;
+  }
+  
+  #scoredisplay{
+    display: none
+  }
+  
+  #score{
+    background: linear-gradient(0deg, rgba(69,162,158,1) 45%, rgba(102,252,241,1) 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 9px 2px #143130);
+    font-size: 95px;
+    padding-right: 10px;
+  }
