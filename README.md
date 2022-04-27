@@ -7,10 +7,10 @@ quizify is a web application that evaluates users on snippets of their favorite 
 With a python Flask backend and a beautiful HTML/CSS/JavaScript frontend, quizify was initially created at the University of California, Irvine's ZotHacks 2021 hackathon.
 
 ### Start Page
-![Start Screen](https://imgur.com/4Rl9Qua)
+![Start Screen](https://imgur.com/4Rl9Qua.jpg)
 
 ### Question Page
-![Question Page](https://imgur.com/yrzdR8F)
+![Question Page](https://imgur.com/yrzdR8F.jpg)
 
 ### Score Page
-![Score Page](https://imgur.com/xqmzFQN)
+![Score Page](https://imgur.com/xqmzFQN.jpg)
