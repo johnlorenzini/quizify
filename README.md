@@ -4,4 +4,4 @@
 
 ### How well do you *really* know your music?
 quizify is a web application that evaluates users on snippets of their favorite Spotify music.
-With a python Flask backend & a beautiful HTML/CSS/JavaScript frontend, quizify was initially created at the University of California, Irvine's ZotHacks 2021 hackathon.
+With a python Flask backend and a beautiful HTML/CSS/JavaScript frontend, quizify was initially created at the University of California, Irvine's ZotHacks 2021 hackathon.
