@@ -25,4 +25,4 @@ six==1.16.0
 Student==0.0.1
 urllib3==1.26.7
 virtualenv==20.10.0
-Werkzeug==2.0.2
+Werkzeug==2.2.3
