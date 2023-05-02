@@ -9,7 +9,7 @@ decorator==5.1.0
 distlib==0.3.3
 drop==0.4.1
 filelock==3.4.0
-Flask==2.0.2
+Flask==2.2.5
 funcsigs==1.0.2
 idna==3.3
 itsdangerous==2.0.1
