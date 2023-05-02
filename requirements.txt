@@ -1,7 +1,7 @@
 ass==0.5.2
 backports.entry-points-selectable==1.1.1
 call==0.1
-certifi==2021.10.8
+certifi==2022.12.7
 charset-normalizer==2.0.7
 click==8.0.3
 data==0.4
